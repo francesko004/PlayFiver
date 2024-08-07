@@ -34,14 +34,14 @@ export default {
     },
     setup(props) {
         const firebaseConfig = {
-            apiKey: "AIzaSyDuZxERSC12JRHv_CxfamTi8yhzXDqQ-zQ",
-            authDomain: "magnata-f9cda.firebaseapp.com",
-            databaseURL: "https://magnata-f9cda-default-rtdb.firebaseio.com",
-            projectId: "magnata-f9cda",
-            storageBucket: "magnata-f9cda.appspot.com",
-            messagingSenderId: "644210333241",
-            appId: "1:644210333241:web:53c3b7c5abf6ee30ad5fe8",
-            measurementId: "G-RRPRXPQ3K7"
+            apiKey: "YOUR-API-KEY",
+            authDomain: "YOUR-AUTH",
+            databaseURL: "DATABASE-URL",
+            projectId: "PROJECT-ID",
+            storageBucket: "STORAGE-BUCKET",
+            messagingSenderId: "MESSAGE-SENDER-ID",
+            appId: "APP-ID",
+            measurementId: "MEASURMENT-ID"
         };
 
         const app = initializeApp(firebaseConfig);
