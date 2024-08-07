@@ -23,7 +23,7 @@ export default {
     data() {
         return {
             isLoading: false,
-            apiKey: '5db4063b29f77a538a6963b367995c16',
+            apiKey: 'API-KEY',
             date: formattedDate,
             apiUrl: `https://v3.football.api-sports.io/fixtures?status=NS&date=${formattedDate}&season=${year}`,
             uriPath: 'https://v3.football.api-sports.io/',
